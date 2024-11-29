@@ -106,6 +106,7 @@ public class Triangles {
 			totalArea %= MOD;
 		}
 		pw.println(totalArea);
+		in.close();
 		pw.close();
 	}
 }

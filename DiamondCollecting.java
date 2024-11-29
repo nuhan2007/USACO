@@ -37,6 +37,7 @@ public class DiamondCollecting {
 			ret = Math.max(ret, leftSize[i] + rightSize[i + 1]);
 		}
 		pw.println(ret);
+		br.close();
 		pw.close();
 	}
 

@@ -39,6 +39,7 @@ public class TimeIsMooney {
             best = Math.max(best, dp[t][0] - t*t*c);
         }
         pw.println(best);
+        br.close();
         pw.close();
     }
 }
